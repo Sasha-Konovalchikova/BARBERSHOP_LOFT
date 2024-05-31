@@ -1,0 +1,208 @@
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .logo {
+        margin: 50px 0;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .list span {
+        margin: 10px 10px;
+    }
+
+    .anchorBtn {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .home {
+        margin-top: 20%;
+    }
+
+    .home h1 {
+        font-size: 48px;
+    }
+
+    .home p {
+        font-size: 24px;
+    }
+
+    .info {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .info .item {
+        margin: 10px 0;
+    }
+
+    .services {
+        padding: 5% 10%;
+    }
+
+    .services h1 {
+        font-size: 40px;
+    }
+
+    .services h2 {
+        font-size: 24px;
+    }
+
+    .options h1 {
+        font-size: 20px;
+    }
+
+    .photos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stylist, .work {
+        width: 100%;
+        height: auto;
+    }
+
+    .about {
+        height: auto;
+        padding: 20px;
+    }
+
+    .aboutCompany {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .aboutFoto {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .aboutFoto img {
+        width: 80%;
+    }
+
+    .masters {
+        height: auto;
+        padding: 20px;
+    }
+
+    .acquaintance h1 {
+        font-size: 30px;
+    }
+
+    .acquaintance h2 {
+        font-size: 20px;
+    }
+
+    .image-container {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .image-container img {
+        width: 100%;
+    }
+
+    .map {
+        height: auto;
+    }
+
+    .maps {
+        height: 300px;
+    }
+
+    .footer {
+        padding: 20px;
+        height: 300px;
+    }
+
+    .footer h1 {
+        font-size: 30px;
+    }
+
+    .footer h2 {
+        font-size: 24px;
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+}
+
+/* Медиазапрос для экранов шириной до 480px (мобильные устройства) */
+@media screen and (max-width: 420px) {
+    .home h1 {
+        font-size: 36px;
+    }
+
+    .home p {
+        font-size: 18px;
+    }
+
+    .serviceList{
+        padding: 10% 10%;
+    }
+
+    .services{
+        width: 80%
+    }
+
+    .services h1 {
+        font-size: 30px;
+    }
+
+    .services h2 {
+        font-size: 18px;
+    }
+
+    .options h1 {
+        font-size: 18px;
+    }
+
+    .footer h1 {
+        font-size: 24px;
+    }
+
+    .footer h2 {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 16px;
+    }
+
+    .br {
+        height: 0px;
+        width: 2px;
+        background-color: #e6e6e4;
+       
+    }
+
+    .photos {
+        margin-top: -70%;
+    }
+
+    .signUp {
+        width: 50%;
+        margin: 1% 25%;
+    }
+
+    .about {
+        margin-top: -35%;
+    }
+}
