@@ -145,11 +145,13 @@
 }
 
 /* Медиазапрос для экранов шириной до 480px (мобильные устройства) */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
 
-  .body {
-    width: 100%;
-  }
+    .main {
+        background-image: url(image/salon.png);
+        width: 100%;
+        
+    }
 
 
     .home h1 {
